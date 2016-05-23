@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yjtc.cbg.yjsapp.Widget.YJSToolBar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:centerTitle="校内"
+        app:leftImageSrc="@mipmap/head_13"
+        app:rightImageSrc="@mipmap/add_28"></com.yjtc.cbg.yjsapp.Widget.YJSToolBar>
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="100%"
+        android:layout_below="@id/id_toolbar"/>
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        custom:selected_color="#FF5500"
+        custom:selected_height="3dp"
+        custom:selected_padding_left="2dp"
+        custom:selected_padding_right="2dp"
+        custom:selected_width="16dp"
+        custom:shape="rect"
+        custom:unselected_color="#55333333"
+        custom:unselected_height="3dp"
+        custom:unselected_padding_left="2dp"
+        custom:unselected_padding_right="2dp"
+        custom:unselected_width="16dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_home_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_indicator"></android.support.v7.widget.RecyclerView>
+
+
+</android.support.percent.PercentRelativeLayout>

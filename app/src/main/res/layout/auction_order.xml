@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/Deepblack"
+    android:layout_height="match_parent">
+
+    <com.yjtc.cbg.yjsapp.Widget.YJSToolBar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        app:centerTitle="@string/auction_order"
+        app:leftImageSrc="@mipmap/my_03"
+        app:rightImageSrc="@mipmap/my_05"></com.yjtc.cbg.yjsapp.Widget.YJSToolBar>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        style="@style/customeTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_toolbar"
+        app:tabGravity="fill"
+        android:layout_marginTop="1dp"
+        app:tabMode="fixed"></android.support.design.widget.TabLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab_layout">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

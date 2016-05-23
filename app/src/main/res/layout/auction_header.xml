@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Deepblack">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true" />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        app:selected_color="#FF5500"
+        app:selected_height="3dp"
+        app:selected_padding_left="2dp"
+        app:selected_padding_right="2dp"
+        app:selected_width="16dp"
+        app:shape="rect"
+        app:unselected_color="#55333333"
+        app:unselected_height="3dp"
+        app:unselected_padding_left="2dp"
+        app:unselected_padding_right="2dp"
+        app:unselected_width="16dp" />
+
+    <LinearLayout
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_indicator"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp">
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/book"
+                app:topImage="@mipmap/auction_13"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/stone_material"
+                app:topImage="@mipmap/auction_15"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_three"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/jade_object"
+                app:topImage="@mipmap/auction_17"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_four"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/seal_cutting"
+                app:topImage="@mipmap/auction_19"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp">
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_five"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/tree_art"
+                app:topImage="@mipmap/auction_25"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/zi_sha_hu"
+                app:topImage="@mipmap/auction_26"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_seven"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/stone_rubbing"
+                app:topImage="@mipmap/auction_27"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+            <com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView
+                android:id="@+id/id_function_eight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bottumText="@string/more"
+                app:topImage="@mipmap/auction_28"></com.yjtc.cbg.yjsapp.Widget.TopImageBottumTextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/auction_37"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/auction_zone" />
+
+
+        <TextView
+            android:id="@+id/id_text_sort_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/sort_time"
+            android:textColor="@color/green" />
+
+        <View
+            android:id="@+id/id_line"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/id_text_sort_time"
+            android:background="@color/green" />
+
+
+        <TextView
+            android:id="@+id/id_text_sort_popular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/id_line"
+            android:text="@string/sort_popular"
+            android:textColor="@color/green" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

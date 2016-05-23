@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sleepblack"
+    android:padding="3dp">
+
+    <RelativeLayout
+        android:id="@+id/id_head"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:id="@+id/id_descript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="卖家：艺匠说"
+            android:textColor="@color/comui_tab_text_color"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/id_descript"
+            android:src="@mipmap/my_03" />
+
+        <TextView
+            android:id="@+id/id_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/Lightblack"
+            android:gravity="center_vertical"
+            android:text="2014-05-29记录"
+            android:textSize="12sp"
+            android:textColor="@color/comui_tab_text_color" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/id_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_head"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/id_img_auction_shop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/myhead" />
+
+        <TextView
+            android:id="@+id/id_auction_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/id_img_auction_shop"
+            android:text="120元"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/id_auction_shop_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_auction_price"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/id_img_auction_shop"
+            android:text="拍卖商品详情拍卖商品详情拍卖商品详情"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/my_03" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_bottum"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="6dp"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_center">
+
+
+        <TextView
+            android:id="@+id/id_auction_shop_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/coral"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:paddingBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="@string/auction_state_auctioning" />
+
+
+        <Button
+            android:id="@+id/id_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/green"
+            android:minHeight="26dp"
+            android:text="@string/contitue_get_price"
+            android:background="@drawable/editext_style"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

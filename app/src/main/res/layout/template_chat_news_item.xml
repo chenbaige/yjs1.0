@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/id_chat_user_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="26dp"
+        android:src="@mipmap/myhead" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/id_chat_user_head"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_chat_news_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="艺匠说"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/id_chat_news_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textSize="10sp"
+            tools:text="卧槽，下班了"
+            android:text="卧槽，下班了" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_chat_news_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:text="下午6:00" />
+
+</RelativeLayout>

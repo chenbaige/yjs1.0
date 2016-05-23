@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sleepblack">
+
+    <com.yjtc.cbg.yjsapp.Widget.YJSToolBar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        app:centerTitle="@string/not_pay"
+        app:leftImageSrc="@mipmap/head_13"
+        app:rightImageSrc="@mipmap/add_06"></com.yjtc.cbg.yjsapp.Widget.YJSToolBar>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_toolbar"></android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

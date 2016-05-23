@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Lightblack"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Lightblack"
+        android:text="hahaha"
+        android:padding="6dp"
+        android:textSize="18sp"
+        android:textColor="@color/comui_tab_text_color" />
+
+</RelativeLayout>

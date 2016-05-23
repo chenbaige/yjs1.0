@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yjtc.cbg.yjsapp.Widget.YJSToolBar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:centerTitle="艺匠说"
+        app:leftImageSrc="@mipmap/head_13"
+        app:rightImageSrc="@mipmap/add_28"></com.yjtc.cbg.yjsapp.Widget.YJSToolBar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_home_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_toolbar"
+       tools:listitem="@layout/template_art_show" ></android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

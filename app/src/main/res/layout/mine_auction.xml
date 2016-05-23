@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lightblack">
+
+    <com.yjtc.cbg.yjsapp.Widget.YJSToolBar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        app:centerTitle="@string/my_auction"
+        app:leftImageSrc="@mipmap/my_03"
+        app:rightImageSrc="@mipmap/my_05"></com.yjtc.cbg.yjsapp.Widget.YJSToolBar>
+
+    <View
+        android:id="@+id/id_toolbar_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/id_toolbar"
+        android:background="@color/Deepblack"></View>
+
+
+    <RelativeLayout
+        android:id="@+id/id_top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/id_toolbar_line"
+        android:background="@color/white"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="100%">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/id_mine_head"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:src="@mipmap/myhead" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/id_mine_head"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="艺匠说"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="简介：这个人很懒，没有留下什么"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已认证"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:drawableLeft="@mipmap/address_18"
+                    android:gravity="center_vertical"
+                    android:text="四川省成都市高新区"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/id_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/id_top"
+        android:background="@color/Deepblack"></View>
+
+
+    <LinearLayout
+        android:id="@+id/id_mine_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_top_line"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton
+            android:id="@+id/id_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="3dp"
+            app:newsnum="99+"
+            app:newstext="@string/auction_all"></com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/Lightblack"></View>
+
+        <com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/id_auctioning"
+            android:padding="3dp"
+            app:newsnum="99+"
+            app:newstext="@string/auction_auctioning"></com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/Lightblack"></View>
+
+
+        <com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/id_auctioned"
+            android:padding="3dp"
+            app:newsnum="99+"
+            app:newstext="@string/auction_auctioned"></com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/Lightblack"></View>
+
+
+        <com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/id_end"
+            android:padding="3dp"
+            app:newsnum="99+"
+            app:newstext="@string/auction_end"></com.yjtc.cbg.yjsapp.Widget.YJSNumTextButton>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/id_not_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_mine_body"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/my_20"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="@string/auction_not_pay" />
+
+
+    <TextView
+        android:id="@+id/id_wait_trants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_not_pay"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/my_23"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="@string/auction_wait_transport" />
+
+
+    <TextView
+        android:id="@+id/id_not_trantsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_wait_trants"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/my_25"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="@string/auction_not_recieve" />
+
+
+    <TextView
+        android:id="@+id/id_mine_collection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_not_trantsed"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/my_29"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="@string/auction_my_collection" />
+
+    <TextView
+        android:id="@+id/id_mine_manager_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_mine_collection"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/my_31"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="@string/auction_add_address" />
+
+
+</android.support.percent.PercentRelativeLayout>

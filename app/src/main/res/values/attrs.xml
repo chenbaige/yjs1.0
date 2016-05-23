@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YJSToolBar">
+        <attr name="leftImageSrc" format="reference" />
+        <attr name="rightImageSrc" format="reference" />
+        <attr name="centerTitle" format="string" />
+        <attr name="rightLeftImageSrc" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="YJSNumTextButton">
+        <attr name="newsnum" format="string" />
+        <attr name="newstext" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TopImageBottumTextView">
+        <attr name="topImage" format="reference"></attr>
+        <attr name="bottumText" format="reference|string"></attr>
+
+    </declare-styleable>
+
+</resources>

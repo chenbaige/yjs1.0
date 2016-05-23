@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\chen\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\support-annotations-23.0.1_2324455026dddf0a001e43beb88751d2eb634a1c.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\de.hdodenhof-circleimageview-2.0.0_66ba8b842f524bb4d92ba07e7e1b3c83003f76b8.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\SMSSDK-2.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0ddb0f66ce51afc2a0187b8036584ee553f006c1">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\intermediates-exploded-aar-SMSSDK-2.0.2_33b27a0dd429ffcda19b9b7377016db63dbde8dd.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\libs\AMap_Location_V2.4.1_20160414.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c2a48661c11bfafb2dea576904958420c2ad9e06">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\AMap_Location_V2.4.1_20160414_3b0f910d46deec14e556392d7b47fd3b7615abfc.jar" />
+    </item>
+    <item
+        jar="C:\Users\chen\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\library-2.4.0_e93513e2aae4aaf1e44753e103e23eeb30e204a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\chen\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\glide-3.6.0_c7439435f672520fa6c99c04a342d70f16fa0f18.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.w4lle.library\NineLayout\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="77a3708405f2f35445d7533217d93b8b10bec62f">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.w4lle.library-NineLayout-1.0.0_86a84889f8dd6bf7869d2cd7d751d671b98f94a0.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.0.1_9d84ab0df608789aebc0f7d12a6093af10d930f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\chen\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\picasso-2.5.2_ea34b28c53e049b12d7623e1ca606e9915335d17.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\SMSSDKGUI-2.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="abf111c203fd0a6efd5a7d9435a7fa52aba3eb0e">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\intermediates-exploded-aar-SMSSDKGUI-2.0.2_1452d99df5a3d868eb3debe63bd065665550efb6.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\me.iwf.photopicker\PhotoPicker\0.1.8\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eba644a0fa8cb2a0b32765031c9c84e40b774cd0">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\me.iwf.photopicker-PhotoPicker-0.1.8_b71ffd93255d6e888849b4085e7aa80d1f4df7d6.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.bartoszlipinski.recyclerviewheader\library\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e6682c1ddbf9360c3bfc7b3780040500b81f2895">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.bartoszlipinski.recyclerviewheader-library-1.2.0_ce113847b4cd263d2a6ac7f718af9b54a00472ed.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-23.0.1_593a60eba963e88c97df45b1f21ff069b64ab55d.jar" />
+    </item>
+    <item
+        jar="C:\Users\chen\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0\4c8d1536dba3812cc1592090dc20c47a4ed3c35e\okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\okhttp-2.0.0_2250cab88c7f5b2af38fd75bbbc0aa7e04bd2a49.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.0.1_ccbc79927642d7ffd08187a031b1c67c6abc34c5.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\pinyin4j-2.5.0_e9658cf4d232640db2f9067425f26ea35ec7db9b.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.android.support-design-23.0.1_69eaa7dfb7e6d41026cf7e04ae743aefe2145419.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.bigkoo\pickerview\2.0.8\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.bigkoo-pickerview-2.0.8_3151f699c8fcfb127c7b1fb8fe5b3982adb3a03e.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.daimajia.slider-library-1.1.5_fae1441b062a1ed852f99058ac3b3f590e67ab19.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\YJS5.23\mainnavigatetabbar\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="413d08fb8d05708ba9801387601981f9232ab4fe">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\YJS5.23-mainnavigatetabbar-unspecified_9862122ca94b5837445f218df9ef0540cd1c205f.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.cjj.materialrefeshlayout\library\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="597d857fe9b090c4582f0855a2c6d6cc45fec544">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.cjj.materialrefeshlayout-library-1.3.0_953f7539e2c35f79e276a1ff05e7678debe2e9a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\chen\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.0\2534c458682c73f5b9871131ab3098d3f987ca3\okio-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\okio-1.0.0_dd0536b0b93b180fd2fa6c724d41a35fcdf060df.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.34\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f9cf048337fc945472f258d5541de7ed0994c8c2">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\org.xutils-xutils-3.3.34_597fde42a1bca8667100b3d13f61699bb7fbe6d4.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\libs\MobTools-2016.0303.1229.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d76d489d04db5e475927a0077c8677b0e3a9fb8a">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\MobTools-2016.0303.1229_3171b1a9dc47349745d8391e71f0619e74a66334.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\internal_impl-23.0.1_a05fc75155ffc4d511771326709fffa314fb6f35.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\gson-2.2.4_5f1c89739ad7787010dddcfa73859601c32dd647.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.0.1_c593fbab9cf594d870c695d3a90a9a58130a6226.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\libs\MobCommons-2016.0303.1229.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="daa572a22ffbbf3550a9e3e4d65045c3e3936602">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\MobCommons-2016.0303.1229_330c211434f457044f6208eb2a532efaa885ec21.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.android.support\percent\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="928b73afabcd116944e9487771d4121168eac1a4">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.android.support-percent-22.2.0_f6628c10c0079542a6b70b1828c45be7592cd317.jar" />
+    </item>
+    <item
+        jar="F:\gitResource\YJS5.23\app\build\intermediates\exploded-aar\com.github.d-max\spots-dialog\0.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f82b3f786bf4937ed1a1cc9a9a811e154813ba9a">
+        <dex dex="F:\gitResource\YJS5.23\app\build\intermediates\pre-dexed\release\com.github.d-max-spots-dialog-0.4_5e4af44848f5659450dfb8d42854b54309c97558.jar" />
+    </item>
+
+</items>

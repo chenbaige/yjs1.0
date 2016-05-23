@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/id_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/Lightgreen"
+        android:padding="10dp">
+
+
+        <RelativeLayout
+            android:id="@+id/id_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/homepage_06" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/homepage_03" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/id_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_top_bar"
+            android:layout_marginTop="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/id_mine_head"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/white"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/myhead" />
+
+
+            <RelativeLayout
+                android:id="@+id/id_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/id_mine_head">
+
+                <TextView
+                    android:id="@+id/id_mine_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="艺匠说"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/id_mine_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_toRightOf="@id/id_mine_name"
+                    android:drawableLeft="@mipmap/my_03"
+                    android:text="22岁"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:id="@+id/id_attention_fans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/id_mine_name"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/id_attention"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="99 关注"
+                        android:textColor="@color/white" />
+
+
+                    <TextView
+                        android:id="@+id/id_fans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/id_attention"
+                        android:text="99 粉丝"
+                        android:textColor="@color/white" />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/id_person_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/id_attention_fans"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="你个小婊砸，赶快完善你的信息"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/id_person_certification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/id_person_description"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="认证：来自四川音乐学院"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/id_sign_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp">
+
+
+            <TextView
+                android:id="@+id/id_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/trant"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="点击签到"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/id_sign"
+                android:drawableLeft="@mipmap/my_03"
+                android:gravity="center_vertical"
+                android:text="当前积分10/100"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="四川 成都"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/id_person_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_top"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/homepage_19"
+        android:gravity="center_vertical"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="个人展示"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_mine_person_show"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/id_person_show"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/id_person_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_mine_person_show"
+        android:layout_marginTop="1dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/homepage_19"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/person_dynomic_message"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

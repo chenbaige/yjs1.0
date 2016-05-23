@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/id_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/id_user_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/myhead" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/id_user_head"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="艺匠说"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="5-3  来自 某某某大学" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/id_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:src="@mipmap/drop_down_15" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/id_art_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_head"
+        android:padding="6dp"
+        android:text="@string/test" />
+
+
+    <com.w4lle.library.NineGridlayout
+        android:id="@+id/id_art_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_art_content"
+        android:padding="3dp"></com.w4lle.library.NineGridlayout>
+
+
+    <TextView
+        android:id="@+id/id_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_art_image"
+        android:drawableLeft="@mipmap/address_18"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="高新区益州大道" />
+
+
+    <View
+        android:id="@+id/id_line"
+        style="@style/hor_line"
+        android:layout_below="@id/id_location"></View>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_location"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <RelativeLayout
+            android:id="@+id/id_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/id_img_component"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/discuss_22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/id_img_component"
+                android:text="@string/component" />
+
+        </RelativeLayout>
+
+        <View style="@style/ver_line"></View>
+
+        <RelativeLayout
+            android:id="@+id/id_center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/id_img_zhuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/transmit_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/id_img_zhuan"
+                android:text="@string/transmit" />
+
+        </RelativeLayout>
+
+        <View
+           style="@style/ver_line"></View>
+
+        <RelativeLayout
+            android:id="@+id/id_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/id_img_zan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/great_26" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/id_img_zan"
+                android:text="@string/like" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

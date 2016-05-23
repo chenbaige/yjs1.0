@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lightblack">
+
+    <com.yjtc.cbg.yjsapp.Widget.YJSToolBar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        app:centerTitle="@string/message_center"
+        app:leftImageSrc="@mipmap/auction_03"
+        app:rightImageSrc="@mipmap/auction_07"></com.yjtc.cbg.yjsapp.Widget.YJSToolBar>
+
+
+    <View style="@style/hor_line"
+        android:id="@+id/id_top_line"
+        android:layout_below="@id/id_toolbar"></View>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_auction_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_top_line"
+        android:background="@color/white"></android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

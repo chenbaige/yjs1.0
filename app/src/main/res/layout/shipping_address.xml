@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/sleepblack"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.yjtc.cbg.yjsapp.Widget.YJSToolBar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:centerTitle="@string/manager_ship_address"
+        app:leftImageSrc="@mipmap/head_13"
+        android:background="@color/white"></com.yjtc.cbg.yjsapp.Widget.YJSToolBar>
+
+    <TextView
+        android:id="@+id/id_add_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/add_28"
+        android:text="@string/add_ship_address"
+        android:layout_marginTop="5dp"
+        android:padding="6dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/id_toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_recycle_address"
+        android:layout_below="@id/id_add_address"
+        tools:listitem="@layout/template_art_show"></android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
